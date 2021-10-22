@@ -5,7 +5,7 @@
   border-radius: 1rem;
   position: relative;
   backface-visibility: hidden;
-  perspective: 100;
+  perspective: 100rem;
   place-self: center;
 }
 
