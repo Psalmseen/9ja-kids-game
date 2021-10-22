@@ -1,0 +1,16 @@
+.homepage {
+  display: grid;
+  padding: 5rem 2rem;
+
+  align-content: center;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+}
+
+
+@media screen and (max-width: 900px) {
+html{
+    font-size: 13px;
+}
+    
+}

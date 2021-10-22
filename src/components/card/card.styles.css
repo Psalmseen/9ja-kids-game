@@ -1,0 +1,58 @@
+.card {
+  width: 23rem;
+  height: 30rem;
+  color: #222;
+  border-radius: 1rem;
+  position: relative;
+  backface-visibility: hidden;
+  perspective: 100;
+  place-self: center;
+}
+
+.card__front {
+  background-image: linear-gradient(to bottom, transparent 50%, #48f048 60%);
+}
+
+.card:hover > .card__front {
+  transform: rotateY(-180deg);
+}
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 1.5s;
+  border-radius: 1rem;
+  backface-visibility: hidden;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.card__image {
+  height: 60%;
+  background-size: cover;
+  object-fit: cover;
+}
+.card__image > img {
+  height: 100%;
+  width: 100%;
+}
+
+.card:hover > .card__back {
+  transform: rotateY(0);
+}
+
+.card__back {
+  backface-visibility: hidden;
+  background-color: #21ac21;
+  transform: rotateY(180deg);
+}
+
+.card__text-title {
+  margin: 0.2rem;
+}
+
+/* #005700 */
+/* #48f048 */
