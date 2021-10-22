@@ -27,7 +27,6 @@
   border-radius: 1rem;
   backface-visibility: hidden;
   overflow: hidden;
-  padding: 0 2rem;
 }
 
 .card__image {
@@ -48,6 +47,7 @@
   backface-visibility: hidden;
   background-color: #21ac21;
   transform: rotateY(180deg);
+  padding: 0 2rem;
 }
 
 .card__text-title {
