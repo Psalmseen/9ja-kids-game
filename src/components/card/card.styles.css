@@ -10,7 +10,8 @@
 }
 
 .card__front {
-  background-image: linear-gradient(to bottom, transparent 50%, #48f048 60%);
+  background-color: #bbbb;
+  
 }
 
 .card:hover > .card__front {
